@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Poppins:wght@400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.heading {
+  margin-left: 12px;
+}
+
+.heading h3 {
+  font-size: 36px;
+  margin-top: 71px;
+  font-family: "PT Serif", serif;
+  margin-bottom: 38px;
+}
+
+.heading h4 {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.heading p {
+  font-size: 14px;
+  font-weight: 400;
+  width: 333px;
+  margin-bottom: 50px;
+}
+
+.team {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 19px;
+}
+
+h5 {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.team-member-2 {
+  margin-top: 44px;
+}
+.team-member-3 {
+  margin-top: -10px;
+}
+.team-member-4 {
+  margin-top: 44px;
+}
+.team-member-5 {
+  margin-top: -10px;
+}
+.team-member-6 {
+  margin-top: 44px;
+}
+
+.job {
+  transform: rotate(90deg);
+  position: relative;
+  top: -148px;
+  left: 54px;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+img {
+  height: 209px;
+  width: 138.72px;
+}
+
+@media screen and (min-width: 909px) {
+  body {
+    margin-left: 240px;
+    margin-right: 275px;
+  }
+
+  .heading {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 96px;
+  }
+
+  .heading h1 {
+    font-size: 47.7px;
+  }
+  .heading h4 {
+    margin-top: 70px;
+    font-size: 18px;
+  }
+  .heading p {
+    font-size: 18px;
+    width: 439px;
+  }
+
+  .team {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  img {
+    width: 238px;
+    height: 341px;
+  }
+
+  h5 {
+    font-size: 18px;
+  }
+
+  .team-member-2 {
+    margin-top: 114px;
+  }
+  .team-member-3 {
+    margin-top: 3px;
+  }
+  .team-member-5 {
+    margin-top: 114px;
+  }
+
+  .job {
+    position: relative;
+    top: -215px;
+    left: 90px;
+    font-size: 12px;
+  }
+}
+
+@media screen and (width: 768px) {
+  
+
+  .heading {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 96px;
+  }
+  .heading h4 {
+    margin-top: 70px;
+    font-size: 18px;
+  }
+  .team {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .job {
+    position: relative;
+    top: -115px;
+    left: 23px;
+    font-size: 10px;
+  }
+   .team-member-5 {
+    margin-top: 114px;
+  }
+}
